@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apache-basic-auth-deployment
+  labels:
+    app: apache-basic-auth
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: apache-basic-auth
+  template:
+    metadata:
+      labels:
+        app: apache-basic-auth
+    spec:
+      containers:
+        - name: apache-basic-auth
+          image: quay.io/pezhang/apache-basic-auth:latest
+          ports:
+            - name: http
+              containerPort: 8080
+              protocol: TCP
