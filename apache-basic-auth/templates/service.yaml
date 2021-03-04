@@ -1,9 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: chart-web
+  name: apache-basic-auth-service
+  labels:
+    app: apache-basic-auth
 spec:
-  clusterIP: None
   selector:
     app: apache-basic-auth
   ports:
