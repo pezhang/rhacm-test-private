@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  nginx-chart:
+  apache-basic-auth:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-03-04T21:43:15.135637809+08:00"
-    description: A Helm chart for Kubernetes - simple nginx chart for testing purpose
-    digest: b339c65f989fde7f7bd4a97c8be6c64627b5b29faa5aed1d3cf3f1d1a5379b36
-    name: nginx-chart
+    created: "2021-03-04T22:05:31.756556203+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 354ceb382a479566e8f76969f1e855c4e37b88793f558944aca9af3690e24a71
+    name: apache-basic-auth
     type: application
     urls:
-    - https://pezhang.github.io/rhacm-test-private/nginx-chart-0.1.0.tgz
+    - https://pezhang.github.io/rhacm-test-private/apache-basic-auth-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-04T21:43:15.135308153+08:00"
+generated: "2021-03-04T22:05:31.755956117+08:00"
