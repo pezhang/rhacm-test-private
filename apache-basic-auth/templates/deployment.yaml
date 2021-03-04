@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: apache-basic-auth-deployment
+  namespace: ns-sub-apache-pezhang
   labels:
     app: apache-basic-auth
 spec:
