@@ -5,7 +5,7 @@ metadata:
   labels:
     app: apache-basic-auth
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: apache-basic-auth
@@ -19,7 +19,7 @@ spec:
           image: quay.io/pezhang/apache-basic-auth-new:latest
           resources:
             requests:
-              cpu: 1000m
+              cpu: 100m
               memory: 100Mi
           ports:
             - name: http
