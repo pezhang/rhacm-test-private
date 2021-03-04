@@ -3,22 +3,12 @@ entries:
   apache-basic-auth:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-03-04T16:48:30.33994538+08:00"
+    created: "2021-03-04T16:59:42.969239563+08:00"
     description: A Helm chart for Kubernetes
     digest: f2c1fd6cb1c5468ca616632df52fb6252c63573fb44aaff3bcc33ced6f0ce771
     name: apache-basic-auth
     type: application
     urls:
-    - https://pezhang.github.io/rhacm-test-private/apache-basic-auth-0.1.0.tgz/apache-basic-auth-0.1.0.tgz
+    - https://pezhang.github.io/rhacm-test-private/apache-basic-auth-0.1.0.tgz
     version: 0.1.0
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2021-03-04T16:48:30.340327403+08:00"
-    description: A Helm chart for Kubernetes
-    digest: 935f075801dffc25ec803ad6ea0d4064c42117dfd213b0c26467ecce4439c2a0
-    name: apache-basic-auth
-    type: application
-    urls:
-    - https://pezhang.github.io/rhacm-test-private/apache-basic-auth-0.1.0.tgz/chart-web/apache-basic-auth-0.1.0.tgz
-    version: 0.1.0
-generated: "2021-03-04T16:48:30.339269116+08:00"
+generated: "2021-03-04T16:59:42.968737074+08:00"
